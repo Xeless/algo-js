@@ -1,5 +1,5 @@
 (() => {
-    let beCode = [
+    let keller7 = [
       {name:"Lyne" },
       {name:"Dj3y" },
       {name:"Zara"},
@@ -30,14 +30,12 @@
    ]
   
 
-   function test () {
-    let total = 0
-    for (let i = 0; i < beCode.length; i++) {
-    total += beCode[i].name.length
-    console.log(total)
-   }
+function average () {
+let total = 0
+for (let i= 0 ; i < keller7.length ; i++) {
+   total += keller7[i].name.length
 }
-
-console.log(test())
-
+return total / keller7.length
+}
+console.log(average())
 })();

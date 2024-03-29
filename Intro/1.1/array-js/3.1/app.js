@@ -34,8 +34,8 @@
     let total = 0
     for (let i = 0; i < beCode.length; i++) {
     total += beCode[i].name.length
-    console.log(total)
    }
+   return total
 }
 
 console.log(test())
