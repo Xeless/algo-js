@@ -30,13 +30,12 @@
    ]
   
 
-function copy () {
-   let copyKeller7 = [];
-for (let i = 0 ; i < keller7.length; i++) {
-   copyKeller7.push(keller7[i]);
+function average () {
+let total = 0
+for (let i= 0 ; i < keller7.length ; i++) {
+   total += keller7[i].name.length
 }
-return copyKeller7
+return total / keller7.length
 }
-
-console.log(copy())
+console.log(average())
 })();
