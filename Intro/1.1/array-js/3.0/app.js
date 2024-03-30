@@ -1,5 +1,6 @@
 (() => {
-  let beCode = [
+  // je declare mon tableau d'objet en l'appelant keller 7 en suite je lui mais les noms github de chaque personne de l'equipe
+  let keller7 = [
     {name:"Lyne" },
     {name:"Dj3y" },
     {name:"Zara"},
@@ -28,11 +29,13 @@
     {name:"Jordan"},
     {name:"Tasha"}
  ]
+// j'initie une boucle que j'appel i qui fait tout le tour de mon tableau d'objet
+  for(let i = 0; i < keller7.length; i++) {
 
-  for(let i = 0; i < beCode.length; i++) {
-    console.log(beCode[i].name);
+    // j'affiche le resultat pour me rendre compte qui il y'a beaucoup trop de monde dans ma classe
+    console.log(keller7[i].name);
   }
 
-
+  
 
 })();

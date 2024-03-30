@@ -1,5 +1,4 @@
 (() => {
-
    // mon tableau d'objet de l'equipe keller 7 c'etait long a ecrire 
     let keller7 = [
       {name:"Lyne" },
@@ -33,9 +32,9 @@
 
    // j'initie la function minMax
    function minMax () {
-      // je declare une variable min a l'interieur je precise que je veux quelle prenne le tableau d'objet a l'index 0
+      // je declare une variable min a l'interieur je precise que je veux quelle prenne le tableau d'objet avec les nom a l'index 0
       let min = keller7[0].name.length
-      // je declare une variable max a l'interieur je precise que je veux quelle prenne le tableau d'objet a l'index 0
+      // je declare une variable max a l'interieur je precise que je veux quelle prenne le tableau d'objet avec les nom a l'index 0
       let max = keller7[0].name.length
       // je parcours tout mon tableau d'objet pour qui puisse tout avoir grace une boucle que j'appel i
       for (let i = 0; i < keller7.length; i++ ) {
@@ -50,7 +49,7 @@
               max = keller7[i].name.length
         }
       }
-// je lui demande de return le resultat de mes variableqs min et max en priant que j'ai reussis 
+// je lui demande de return le resultat de mes variables min et max en priant que j'ai reussis 
       return {min, max}
 
    }
