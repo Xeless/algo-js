@@ -1,10 +1,15 @@
 (() => {
-   
 
-// Exercises 2.6 
+    // je declare une variable ou j'ai mis un chiffre 3 pour qui puisse me retourne mercredi
+   let jourDeLaSemaine = 3
+
+// j'utilse switch qui me permet de chosir plus nombre pour mes jours de semaine plutot que 50 if ou else 
 switch (jourDeLaSemaine) {
+    //  si le jourDeLaSemaine est 1 
     case 1: 
+    // je convertie le nombre 1 en lundi
 console.log("lundi")
+// je stop une fois que le chiffre de la semaine a etez donné 
 break;
 
 case 2:

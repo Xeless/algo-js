@@ -1,6 +1,6 @@
 (() => {
 
-// j'initie une boucle que j'appel j qui vas ce lancer 100 fois
+// j'initie une boucle que j'appel j qui vas ce lancer 99 fois
 for (let j = 1 ; j < 100; j++) {
     
         //  j'initie une condition qui vas m'aider a cherchais le nombre pair pour ca ont utilise modulo % 
@@ -19,8 +19,9 @@ for (let j = 1 ; j < 100; j++) {
 
 
 
-    // le ternaire honnetement je n'aime pas ca 
+     // j'initie une boucle que j'appel i qui vas ce lancer 99 fois
 for (let i = 1; i < 100; i++) {
+                                                // le ternaire 
     // initie une variable qui s'appel message qui est = aux parametre de ma condition ensuite j'initie ma condition grace a ? (if)
     // ensuite je demande si : ${}(ma conditon) est avant :(vrai) si oui les chiffre sont pair en ternaire puis je refait un : avant et apres ma conditon pour verifier (vrai) ou (faux)
     // je redemande une condition : ${}(ma conditon) est avant :(vrai) alors les chiffre sont impaire en ternaire
