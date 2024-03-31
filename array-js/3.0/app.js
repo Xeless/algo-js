@@ -1,5 +1,5 @@
 (() => {
-  // je declare mon tableau d'objet en l'appelant keller 7 en suite je lui mais les noms github de chaque personne de l'equipe
+  // je declare mon tableau d'objet en l'appelant keller 7 en suite je lui m'ai les noms github de chaque personne de l'equipe
   let keller7 = [
     {name:"Lyne" },
     {name:"Dj3y" },
