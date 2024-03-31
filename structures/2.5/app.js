@@ -7,17 +7,18 @@ function favoriteNumber () {
  while (true) {
    
     // ma variable vas poser une question 
-  numberFavorites = prompt("quel est votre nombre favorit")
+  numberFavorites = parseInt(window.prompt("choissiez un nombre"))
 
-// je verifie que le nombre sois convertie en nombre &&(et) que le chiffre de ma condition sois 42
-  if (!isNaN(numberFavorites) && numberFavorites === 42) {
+// je m'ai une condition que number favorites est egale a 42
+  if (numberFavorites === 42) {
+    // le console.log affiche le message si le numero 42 est trouvée 
   console.log("bravo vous avez trouveé mon nombre favorit")
-
   // je casse la boucle while pour evite quelle tourne a l'infinie
 break
 
 // ma conditon else est la pour dire que il n'a toujours pas trouve le nombre 
 }else {
+  // console.log affiche un message si la condition n'est pas trouvé 
     console.log("vous n'avez pas trouvé mon nombre favorit")
 }
 }

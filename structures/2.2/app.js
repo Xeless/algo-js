@@ -1,26 +1,18 @@
 (() => {
-// j'initie ma variable min je lui m'ai prompt car je dois pose une question a une personne
-let min = prompt("enter number min")
-// j'initie ma variable current je lui m'ai prompt pour poser une question
-let current= prompt("enter number current")
-// j'initie ma variable max je lui m'ai prompt car je dois pose une question 
-let max = prompt("enter number maximum")
+// j'initie ma variable min je lui m'ai prompt car je dois pose une question a une personne et parseInt verifie que c'est bien un nombre
+let min = parseInt(window.prompt("Choisiez un nombre mini"))
+// j'initie ma variable current je lui m'ai prompt pour poser une question et parseInt verifie que c'est bien un nombre
+let current= parseInt(window.prompt("Choisiez un nombre actuelle"))
+// j'initie ma variable max je lui m'ai prompt car je dois pose une question et parseInt verifie que c'est bien un nombre
+let max = parseInt(window.prompt("Choisiez un nombre maximum"))
 
-// Je m'ai une condition ici c'est pour que le petit malin qui essaye de mettre une lettre plutot que un nombre ne puisse pas
-// grace IsNaN (is not a Number) avec || (ou) qui permet de faire comprendre que je que tout mes variable puis avoir IsNaN
+// Je m'ai une condition ici  pour verifier que le petit malin qui essaye de mettre une lettre plutot que un nombre ne puisse pas
 if (isNaN (min) || isNaN(current) || isNaN(max)) {
     // j'affiche un message aux petit malin qui essaye de mettre une lettre plutot que un nom
 console.log ("non non pas de triche je veut des nombres !")
 // j'intie un return qui me permet de faire quitter une personne qui respect pas la regle qui j'ai imposer
 return
 }
-
-// je precise que je veux un nombre dans mon min et non une chaine de caractéres
-min = Number(min)
-// je precise que je veux un nombre dans mon current et non une chaine de caractéres
-current = Number(current)
-// je precise que je veux un nombre dans mon max et non une chaine de caractéres
-max = Number(max)
 
 // je rajoute une autre condition qui me permet de dire a la personne que le minimum ne peut pas etre superieur aux max ca parait logique 
 if (min < max ) {
