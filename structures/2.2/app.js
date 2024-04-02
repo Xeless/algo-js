@@ -1,10 +1,10 @@
 (() => {
 // j'initie ma variable min je lui m'ai prompt car je dois pose une question a une personne et parseInt verifie que c'est bien un nombre
-let min = parseInt(window.prompt("Choisiez un nombre mini"))
+let min = window.prompt("Choisiez un nombre mini"))
 // j'initie ma variable current je lui m'ai prompt pour poser une question et parseInt verifie que c'est bien un nombre
-let current= parseInt(window.prompt("Choisiez un nombre actuelle"))
+let current= window.prompt("Choisiez un nombre actuelle"))
 // j'initie ma variable max je lui m'ai prompt car je dois pose une question et parseInt verifie que c'est bien un nombre
-let max = parseInt(window.prompt("Choisiez un nombre maximum"))
+let max = window.prompt("Choisiez un nombre maximum"))
 
 // Je m'ai une condition ici  pour verifier que le petit malin qui essaye de mettre une lettre plutot que un nombre ne puisse pas
 if (isNaN (min) || isNaN(current) || isNaN(max)) {
