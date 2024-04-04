@@ -9,3 +9,19 @@
     <script src="app.js" type="text/javascript"></script>   
 </body>
 </html>
+
+
+function manhattan (streetA, avenueA,streetB,avenueB) {
+    const street = Math.abs(streetA - streetB)
+    const avenue = Math.abs(avenueA - avenueB)
+    
+    const calculePatéeDeMaison = street + avenue
+    return calculePatéeDeMaison
+}
+
+const test = manhattan(1,1,2,2)
+const test2 = manhattan(1,1,1,1)
+const test3 = manhattan(5,4,3,2)
+console.log(test)
+console.log(test2)
+console.log(test3)

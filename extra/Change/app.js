@@ -7,8 +7,7 @@
 
         if(isNaN(price) || price <= 0 ||  isNaN(moneyHanded)  || moneyHanded < price)  {
             return []
-      }
-      
+      } 
       else if (moneyRendu > 0) {
         for(let i = 0 ; i < coins.length ; i++) {
             while(moneyRendu >= coins[i]){
@@ -19,7 +18,6 @@
         }
         return add
       }
-      
       else{
         return []
       }
